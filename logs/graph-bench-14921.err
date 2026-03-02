@@ -1,0 +1,13 @@
+rm: cannot remove 'client': No such file or directory
+rm: cannot remove 'client.o': No such file or directory
+make: [Makefile:12: clean] Error 1 (ignored)
+client.cpp:22: warning: "RAPIDJSON_PARSE_ERROR_NORETURN" redefined
+   22 | #define RAPIDJSON_PARSE_ERROR_NORETURN(code, offset) \
+      | 
+In file included from client.cpp:10:
+/users/fperaza/work/rapidjson/include/rapidjson/reader.h:100: note: this is the location of the previous definition
+  100 | #define RAPIDJSON_PARSE_ERROR_NORETURN(parseErrorCode, offset) \
+      | 
+srun: error: gal-c1: task 0: Exited with exit code 2
+srun: Terminating StepId=14921.0
+slurmstepd: error: execve(): /users/fperaza/work/blocking-queue-crawler/./seq_client: No such file or directory

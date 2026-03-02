@@ -15,7 +15,8 @@ echo "=== Building programs ==="
 make clean
 make
 
-TRIALS=3
+TRIALS=1
+
 
 run_trials () {
 local label="$1"

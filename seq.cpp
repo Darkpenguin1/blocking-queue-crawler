@@ -106,7 +106,7 @@ vector<string> get_neighbors(const string& json_str) {
 
 // BFS Traversal Function
 vector<string> bfs(CURL* curl, const string& start, int depth) {
-    blocked_queue<pair<string, int>> q;
+    std::queue<pair<string, int>> q;
     unordered_set<string> visited;
     vector<string> result;
 

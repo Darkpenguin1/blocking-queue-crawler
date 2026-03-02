@@ -1,0 +1,3 @@
+=== Building programs ===
+rm client client.o
+g++ -I. -I/home/rank/rapidjson/include   -c -o client.o client.cpp

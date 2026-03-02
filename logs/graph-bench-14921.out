@@ -1,0 +1,9 @@
+=== Building programs ===
+rm client client.o
+g++ -I. -I/users/fperaza/work/rapidjson/include   -c -o client.o client.cpp
+g++ client.o -o client -lcurl
+
+===== REQUIRED CASE: Tom Hanks / 4 =====
+
+[SEQ] node=Tom Hanks depth=4
+  trial 1:

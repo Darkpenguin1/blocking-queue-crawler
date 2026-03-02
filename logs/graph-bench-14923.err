@@ -1,0 +1,19 @@
+seq.cpp:20: warning: "RAPIDJSON_PARSE_ERROR_NORETURN" redefined
+   20 | #define RAPIDJSON_PARSE_ERROR_NORETURN(code, offset) \
+      | 
+In file included from seq.cpp:10:
+/users/fperaza/work/rapidjson/include/rapidjson/reader.h:100: note: this is the location of the previous definition
+  100 | #define RAPIDJSON_PARSE_ERROR_NORETURN(parseErrorCode, offset) \
+      | 
+seq.cpp: In function ‘std::vector<std::__cxx11::basic_string<char> > bfs(CURL*, const string&, int)’:
+seq.cpp:109:5: error: ‘blocked_queue’ was not declared in this scope; did you mean ‘blocking_queue’?
+  109 |     blocked_queue<pair<string, int>> q;
+      |     ^~~~~~~~~~~~~
+      |     blocking_queue
+seq.cpp:109:35: error: expected primary-expression before ‘>’ token
+  109 |     blocked_queue<pair<string, int>> q;
+      |                                   ^~
+seq.cpp:109:38: error: ‘q’ was not declared in this scope
+  109 |     blocked_queue<pair<string, int>> q;
+      |                                      ^
+make: *** [Makefile:12: seq.o] Error 1

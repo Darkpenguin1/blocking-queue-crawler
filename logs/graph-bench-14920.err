@@ -1,0 +1,5 @@
+client.cpp:9:10: fatal error: rapidjson/error/error.h: No such file or directory
+    9 | #include "rapidjson/error/error.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [<builtin>: client.o] Error 1
