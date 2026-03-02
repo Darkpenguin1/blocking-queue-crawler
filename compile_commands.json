@@ -1,0 +1,16 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I.",
+      "-I/home/rank/rapidjson/include",
+      "-c",
+      "-o",
+      "client.o",
+      "client.cpp"
+    ],
+    "directory": "/home/rank/parpro/blocking_queue_graphcrawler",
+    "file": "/home/rank/parpro/blocking_queue_graphcrawler/client.cpp",
+    "output": "/home/rank/parpro/blocking_queue_graphcrawler/client.o"
+  }
+]
