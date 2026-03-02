@@ -1,0 +1,4 @@
+SEQ_d4.txt: Time to crawl: 480.434s
+PAR_d4.txt: Time to crawl: 60.1626s
+SEQ_d2.txt: Time to crawl: 0.31893s
+PAR_d2.txt: Time to crawl: 0.320972s
